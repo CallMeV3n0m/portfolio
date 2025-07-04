@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Experience</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+            
+
+        </nav>
+    </header>
+<div id="pdf">
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome To My Resume</h3>
+            <h1>Luther Attayi Jibrin</h1>
+            <h3>And I'm a <span>Software Developer</span></h3>
+            <p>I am a full stack software developer trained by A+ computer training technology living in Nigeria, i am also a physicist and an educationist</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100091538509949"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.tweeter.com/@callmev3n0m"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/luther.jibrin/?utm_source=qr&r=nametag"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/luther-jibrin-154608345?utm_source=share&utm_camoaign=share_via&utm_content=profi&utm_mediun=android_app"><i class='bx bxl-linkedin'></i></a>    
+            </div>
+            <a href="#" class="btn" id="download">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/images/home_6887.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/images/about_8789.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Expirience <span>That I Have</span></h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordian" id="first" checked>
+                    <label for="first">2022-2023</label>
+                    <div class="content">
+                        <p>within this time line i was into freelancing creating websites for the clients that contacted me online via my github page; at this time i created a demo-website of fedex, waptrick.com and a lot more i didnt creat more complex soft wares at this period in time due to the fact that my skills were still developing at this time</p>
+                    </div>
+                    <li>
+                    <input type="radio" name="accordian" id="second">
+                    <label for="second">2023-2024</label>
+                    <div class="content">
+                        <p>at this point in my life i got involved in coding competition where i developed a calclator app and a digital clock, i learned a little bit of java script; at this period in time i began developuing my skills focusing it more in app ddvelopment which helped me in the understanding of application</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordian" id="third">
+                    <label for="third">2024-2025</label>
+                    <div class="content">
+                        <p>i worked at a secondary school developing their online test and exams i also developed and desxigned okrika.com as well as lana beauty line frontend website this were a little more complext than my previous proecst due to the extensive designe i dedicated to the website  i also learned te importance of decoration and beauty in websites and increasedmy skills in css </p>
+                    </div>
+                    <li>
+                    <input type="radio" name="accordian" id="fourth">
+                    <label for="fourth">2025-2026</label>
+                    <div class="content">
+                        <p>i began learning backend of softwares and at this pount i could creat a full stack website/application which helped m,e creat a few websites and apps at this point ui went back tyio school to increase my knowlwdge on soft ware development </p>
+                    </div>
+            </ul>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>i am well trained and highly skilled in the aspects of creating, designing and development of websites</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Software Development</h3>
+                <p>i am well trained and highly skilled in the aspects of creating, designing and development of various softwares</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>APP Developement</h3>
+                <p>i am well trained and highly skilled in the aspects of creating, designing and development of application</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/images/15-Facts-About-Coding-Every-Kid-Should-Know.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Virtual website</h4>
+                    <p>this is a cartoonized website that allows the user to view the entire web sie in a cartoonized pitoration</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/images/Computer-Programmer.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-comerce website</h4>
+                    <p>this is a commercial website where people can buy or/and sell goods and services</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="/images/960x0.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Artificial Intelligence</h4>
+                    <p>this computer  thinks on its own in solvining human problems relational to education</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="/images/images-1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Social media website</h4>
+                    <p>this is a website where people all over the world can meet and interact with one another</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="/images/images-2.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Educational website</h4>
+                    <p>this is a website where various teachers and learners can meet in order to share knowledge</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="/images/images.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Ruby Games</h4>
+                    <p>this is a puzzle game inspired from the rubix cube you can say it is asoftware form of rubix cube</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" name="" id="" placeholder="Full Name">
+                <input type="email" name="" id="" placeholder="Email Address">
+            </div>
+             <div class="input-box">
+                <input type="number" name="" id="" placeholder="Mobile Number">
+                <input type="text" name="" id="" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>2025 By Luther Attayi Jibrin</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
