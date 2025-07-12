@@ -21,7 +21,7 @@
     Advance CSS
     simple JavaScript 
 📦 Installation
-    git clone https://github.com/CallMeV3n0m/student-portal-html.git cd student-portal-html Simply open dashboard.html in your browser to start exploring. No dependencies or build tools needed.
+    git clone https://github.com/CallMeV3n0m/portfolio-html.git cd portfolio-html Simply open dashboard.html in your browser to start exploring. No dependencies or build tools needed.
 🧑 Usage
     Recruiters/Hiring Managers: Looking for a quick overview and detailed insights. They might print the resume.
     Potential Collaborators/Clients: Interested in the portfolio and interaction.
@@ -59,5 +59,5 @@
    Email: jibrinluther@gmail.com
 🙏 Acknowledgments
    ARIA practices from WAI-ARIA standards
-Semantic structure inspired by institutional web portals
-Academic prototype intended for instructional use Footer © 2025 GitHub, Inc. Footer navigation Terms Privacy Security Status Docs Contact Manage cookies Do not share my personal information
+ portfolio inspired by institutional portfolio websites
+portfolio prototype intended for instructional use Footer © 2025 GitHub, Inc. Footer navigation Terms Privacy Security Status Docs Contact Manage cookies Do not share my personal information
